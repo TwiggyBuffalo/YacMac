@@ -4,6 +4,7 @@ import icon from '../../assets/icon.svg';
 import './App.css';
 
 const Hello = () => {
+  // FIXME: But actually dont.
   const [hasAudio, setHasAudio] = useState(true);
   const [recordedAudio, setRecordedAudio] = useState(null);
   const context = new AudioContext();
@@ -28,6 +29,7 @@ const Hello = () => {
           setRecordedAudio(buffer);
         },
         function(e) {
+          // Who cares
           console.log("error ", e)
         });
       });
@@ -38,6 +40,7 @@ const Hello = () => {
       try {
         mediaRecorder.stop();
       } catch (error) {
+        // Who cares
         console.log(error);
       }
       stream.getTracks().forEach(function (track) {
