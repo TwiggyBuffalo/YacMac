@@ -10,8 +10,6 @@
   Voice notes suck, but this is much worse. Based on the <a href="https://en.wikipedia.org/wiki/Yak_Bak">YakBak</a> toy from the 90's. The plan was to record the audio, upload it using Google's Speech-to-Text API and then play it back using macOS's <b>say</b> command. Unfortunately, the YakBak ran out of batteries before it got there.
 </p>
 
-<br>
-
 ## Install
 
 Clone the repo and install dependencies:
